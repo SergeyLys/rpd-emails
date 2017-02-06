@@ -42,6 +42,15 @@ html,
   text-align: center;
 }
 
+table.button table td {
+  background: #f00;
+  border-color: #f00;
+
+  a {
+
+  }
+}
+
 // Social Media
 table.button.facebook table td {
   background: #3B5998 !important;
