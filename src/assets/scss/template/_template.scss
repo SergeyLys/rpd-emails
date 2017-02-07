@@ -8,6 +8,10 @@ html,
   background: #ffffff !important;
 }
 
+table.container {
+  width: 675px;
+}
+
 .container.header {
   background: #ffffff;
 }
@@ -19,6 +23,16 @@ html,
 // Full Width Headers
 .header {
   background: #0067c3;
+
+  h4 {
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .header .columns {
@@ -27,7 +41,6 @@ html,
 
 .header p {
   color: #fff;
-  padding-top: 15px;
 }
 
 .header .wrapper-inner {
@@ -69,4 +82,9 @@ table.button.google table td {
 
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+.small-11 {
+  display: block;
+  margin: 0 !important;
 }
