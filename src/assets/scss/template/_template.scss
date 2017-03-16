@@ -113,11 +113,24 @@ a {
 }
 
 table.button table td {
+  border: none;
+  border-radius: 6px;
+}
+
+table.button table td a {
   background: #ff5f64;
   border-color: #ff5f64;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.33), inset 0px -4px 0px 0px rgba(0,0,0,.1);
   transition: all .3s ease; 
+  border: none;
   border-radius: 6px;
+  font-size: 14px !important;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding-left: 15px;
+  padding-right: 15px;
+  word-wrap: normal;
 
   &:hover {
     box-shadow: none;
@@ -131,12 +144,7 @@ table.button.large * {
 }
 
 table.button.large table a {
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  line-height: 40px;
-  text-transform: uppercase;
-  font-weight: 100;
+
 }
 
 .footer-left,
